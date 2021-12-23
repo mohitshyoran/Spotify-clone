@@ -1,0 +1,31 @@
+@media screen and (max-width:500px){
+    body{
+        background-color: red;
+    }
+    .songItem img{
+        width: 0;
+    }
+    .songItem{
+        justify-content: auto;
+        height: 10vh;
+    }
+    .songName{
+        width: 55%;
+    }
+    .songLength{
+        width: 2em;
+    }
+    .timeStamp{
+        margin: 0;
+    }
+    .timeStamp img{
+        width: 2em;
+    }
+    .songInfo{
+        display: flex;
+        flex-direction: column;
+        left: 1vw;
+        justify-content: center;
+        margin-top: 2vh;
+    }
+}
